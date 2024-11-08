@@ -12,7 +12,7 @@ export default function Posts() {
     }
     async function fetchAndLogPosts() {
         const posts = await getPosts();
-        console.log(posts.data);
+        console.log(posts);
     }
     
     useEffect(() => {
